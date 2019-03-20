@@ -58,8 +58,6 @@ function bustCache() {
 
   var bustArray = function() {
     return [
-      cacheBust('server/pages/_includes/', 'head.html'),
-      cacheBust('server/pages/_includes/', 'scripts.html'),
       cacheBust('content/_includes/', 'head_includes.html'),
       cacheBust('content/_includes/fluid/', 'head.html'),
       cacheBust('content/_includes/fluid/', 'footer_tags.html')
@@ -262,7 +260,6 @@ gulp.task('server:stencil', ['stencil'], justReload);
 gulp.task('server:js', ['js'], justReload);
 
 gulp.task('watch.max', ['server'], function() {
-  gulp.watch(['server.js','server/**/*'], ['server:server']);
   gulp.watch('content/scss/**.scss', ['server:stylesv1']);
   gulp.watch(['assets/scss/**/_*.scss', 'assets/scss/styles.scss'],
     ['server:stylesv2']);
@@ -276,7 +273,6 @@ gulp.task('watch.max', ['server'], function() {
 });
 
 gulp.task('watch', ['server'], function() {
-  gulp.watch(['server.js','server/**/*'], ['server:server']);
   gulp.watch(['assets/scss/**/_*.scss', 'assets/scss/styles.scss'],
     ['server:stylesv2']);
   gulp.watch(['assets/scss/**/*.scss', '!assets/scss/styles.scss'], ['server:others']);
@@ -289,8 +285,6 @@ gulp.task('watch', ['server'], function() {
 
 gulp.task('sitemap', function () {
   gulp.src([
-    'server/pages/**/*.html',
-    '!server/pages/_*/**/*',
     'content/**/*.{html,md}',
     '!content/docs/{demos,dist}/**/*',
     '!content/{_includes,_layouts}/**/*',

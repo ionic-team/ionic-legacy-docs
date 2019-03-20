@@ -24,8 +24,6 @@ linkchecker.html
 /content/_includes/head_includes.prod.html
 /content/_includes/fluid/footer_tags.prod.html
 /content/_includes/fluid/head.prod.html
-/server/pages/_includes/head.prod.html
-/server/pages/_includes/scripts.prod.html
 /.vscode
 /package-lock.json
 /null
