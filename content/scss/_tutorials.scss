@@ -31,7 +31,7 @@ h2.underline {
   z-index: 1;
   width: 380px;
   height: 810px;
-  background: url("/img/phone-case.png") no-repeat right top;
+  background: url("/docs/v1/img/phone-case.png") no-repeat right top;
 
   margin-left: 20px;
 
@@ -53,7 +53,7 @@ h2.underline {
        only screen and (             min-resolution: 124dpi)
 { 
   .phone-case {
-    background-image: url("/img/phone-case@2x.png");
+    background-image: url("/docs/v1/img/phone-case@2x.png");
     background-size: 365px 792px;
   }
 }

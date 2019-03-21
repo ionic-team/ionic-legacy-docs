@@ -9,8 +9,8 @@ _site/
 linkchecker.html
 
 * text=auto
-/content/css/site.css
-/content/css/site.min.css
+/content/docs/v1/css/site.css
+/content/docs/v1/css/site.min.css
 /content/docs/v3/css/styles.css
 /content/docs/v3/css/styles.min.css
 /content/css/creator.css

@@ -143,14 +143,14 @@ gulp.task('styles:v1', function() {
   return gulp.src('content/scss/**/*.scss')
     .pipe(sass({onError: browserSync.notify}))
     .pipe(prefix({browsers: AUTOPREFIXER_BROWSERS}))
-    .pipe(gulp.dest('content/css/'))
-    .pipe(gulp.dest('_site/css/'))
+    .pipe(gulp.dest('content/docs/v1/css/'))
+    .pipe(gulp.dest('_site/docs/v1/css/'))
     .pipe(minifyCss({
       keepSpecialComments: 0
     }))
     .pipe(rename({extname: '.min.css'}))
-    .pipe(gulp.dest('content/css/'))
-    .pipe(gulp.dest('_site/css/'));
+    .pipe(gulp.dest('content/docs/v1/css/'))
+    .pipe(gulp.dest('_site/docs/v1/css/'));
 });
 
 // compress and concat JS

@@ -25,7 +25,7 @@ header_sub_title: Learn about the Ionic community's favorite tools
     <h3><a href="#changing-the-platform">Changing the Platform</a></h3>
     <p>By default, when you view your app in the browser, Ionic will apply the iOS theme. However, since Ionic components adapt according to their platform, it is helpful to be able to view what your app looks like on Android. To do this, simply add <code>?ionicplatform=android</code> to the URL where your app is being served: <code>http://localhost:8100/?ionicplatform=android</code>. This will change how Ionic sees which platform you are on.</p>
     <p>However, this will not change how the browser sees which platform you are on. To change how the browser sees which platform and device you are on, you must change the user-agent. To do this, open up Chrome DevTools, and toggle device mode on with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>M</kbd> on Mac).</p>
-    <img class="docs-screenshot" src="/img/docs/change-device-platform.png">
+    <img class="docs-screenshot" src="/docs/v1/img/change-device-platform.png">
     <p>Selecting devices from the device dropdown will change the user-agent, as well as the dimensions of the viewport.</p>
   </section>
 

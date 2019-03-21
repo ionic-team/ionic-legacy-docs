@@ -16,7 +16,7 @@ news: " "
 <div class="row docs-home-row">
   <div class="col-sm-4">
     <a href="/docs/v1/guide/preface.html">
-      <img src="/img/docs/symbols/guide/guide-what-symbol@2x.png" width="170" height="140">
+      <img src="/docs/v1/img/symbols/guide/guide-what-symbol@2x.png" width="170" height="140">
       <h4>Chapter 1</h4>
       <h3>What is Ionic?</h3>
     </a>
@@ -24,7 +24,7 @@ news: " "
 
   <div class="col-sm-4">
     <a href="/docs/v1/guide/installation.html">
-      <img src="/img/docs/symbols/guide/guide-installation-symbol@2x.png" width="170" height="140">
+      <img src="/docs/v1/img/symbols/guide/guide-installation-symbol@2x.png" width="170" height="140">
       <h4>Chapter 2</h4>
       <h3>Installation</h3>
     </a>
@@ -32,7 +32,7 @@ news: " "
 
   <div class="col-sm-4">
     <a href="/docs/v1/guide/starting.html">
-      <img src="/img/docs/symbols/guide/guide-starting-symbol@2x.png" width="170" height="140">
+      <img src="/docs/v1/img/symbols/guide/guide-starting-symbol@2x.png" width="170" height="140">
       <h4>Chapter 3</h4>
       <h3>Starting your app</h3>
     </a>
@@ -42,14 +42,14 @@ news: " "
 <div class="row docs-home-row">
   <div class="col-sm-4">
     <a href="/docs/v1/guide/testing.html">
-      <img src="/img/docs/symbols/guide/guide-testing-symbol@2x.png" width="170" height="140">
+      <img src="/docs/v1/img/symbols/guide/guide-testing-symbol@2x.png" width="170" height="140">
       <h4>Chapter 4</h4>
       <h3>Testing your app</h3>
     </a>
   </div>
   <div class="col-sm-4">
     <a href="/docs/v1/guide/building.html">
-      <img src="/img/docs/symbols/guide/guide-building-symbol@2x.png" width="170" height="140">
+      <img src="/docs/v1/img/symbols/guide/guide-building-symbol@2x.png" width="170" height="140">
       <h4>Chapter 5</h4>
       <h3>Building it out</h3>
     </a>
@@ -57,7 +57,7 @@ news: " "
 
   <div class="col-sm-4">
     <a href="/docs/v1/guide/publishing.html">
-      <img src="/img/docs/symbols/guide/guide-publishing-symbol@2x.png" width="170" height="140">
+      <img src="/docs/v1/img/symbols/guide/guide-publishing-symbol@2x.png" width="170" height="140">
       <h4>Chapter 6</h4>
       <h3>Publishing</h3>
     </a>
