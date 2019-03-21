@@ -1,5 +1,5 @@
 {
-  "name": "ionic-site",
+  "name": "ionic-legacy-docs",
   "version": "1.0.0",
   "description": "Ionic Framework main site - IonicFramework.com",
   "scripts": {
@@ -22,13 +22,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/ionic-site"
+    "url": "https://github.com/ionic-team/ionic-legacy-docs"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ionic-team/ionic-site/issues"
+    "url": "https://github.com/ionic-team/ionic-legacy-docs/issues"
   },
-  "homepage": "https://github.com/ionic-team/ionic-site",
+  "homepage": "https://github.com/ionic-team/ionic-legacy-docs",
   "dependencies": {
     "@sentry/node": "^4.6.4",
     "@stencil/core": "0.18.0",
