@@ -12,7 +12,7 @@ next_page_link: /docs/theming/css-utilities/
   Improve this doc
 </a>
 
-<img class="section-header" src="/img/docs/theming-header.png" />
+<img class="section-header" src="/docs/v3/img/theming-header.png" />
 
 We built Ionic to be a blank slate that you can easily customize and modify to fit your brand, while still following the standards of each platform. The best apps in the app stores are fully customized, and we want to make it easy to do the same with your Ionic apps.
 

@@ -15,7 +15,7 @@ footer_includes: |
 
 # WKWebView
 
-<img src="/img/docs/webkit-icon.png" style="
+<img src="/docs/v3/img/webkit-icon.png" style="
     display: inline-block;
     float: right;
     margin-top: 25px;

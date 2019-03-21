@@ -13,7 +13,7 @@ searchable: false
 
 # Ionic API Docs
 
-<img class="section-header" src="/img/docs/api-intro-header.png" />
+<img class="section-header" src="/docs/v3/img/api-intro-header.png" />
 
 In the API docs, you'll find two kinds of doc pages: Component and Service APIs.
 

@@ -68,8 +68,8 @@
     "run-sequence": "^1.2.2",
     "typed.js": "^2.0.6"
   },
-  "module": "content/js/stencil/esm/index.js",
-  "main": "content/js/stencil/index.js",
-  "types": "content/js/stencil/types/components.d.ts",
-  "collection": "content/js/stencil/collection/collection-manifest.json"
+  "module": "content/docs/v3/js/stencil/esm/index.js",
+  "main": "content/docs/v3/js/stencil/index.js",
+  "types": "content/docs/v3/js/stencil/types/components.d.ts",
+  "collection": "content/docs/v3/js/stencil/collection/collection-manifest.json"
 }

@@ -67,7 +67,7 @@ $ ionic serve
 
 <br/>
 <center>
-  <img src="/img/docs/tutorial-screen.png" style="max-width: 320px">
+  <img src="/docs/v3/img/tutorial-screen.png" style="max-width: 320px">
 </center>
 <br/>
 

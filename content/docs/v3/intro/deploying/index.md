@@ -99,7 +99,7 @@ To start, you'll need to set up a provisioning profile to code sign your apps.
 
 Once you've successfully logged in, a new 'Personal Team' with the role 'Free' will appear beneath your Apple ID.
 
-<img src="/img/docs/deploying/profiles.jpg" alt="profiles">
+<img src="/docs/v3/img/deploying/profiles.jpg" alt="profiles">
 
 #### Using an Apple Developer Account
 
@@ -122,17 +122,17 @@ Next, you'll need to code sign your app. How you do this will depend on if you a
 
 If you are running Xcode 7 or earlier, you'll get a code signing error that looks like this when you try to run the app:
 
-<img src="/img/docs/deploying/sign-fail-1.jpg">
+<img src="/docs/v3/img/deploying/sign-fail-1.jpg">
 
 Click the 'Fix Issue' button, then select your 'Personal Team' profile.
 
-<img src="/img/docs/deploying/team-menu-1.jpg">
+<img src="/docs/v3/img/deploying/team-menu-1.jpg">
 
 #### Xcode 8 ####
 
 If you are running Xcode 8, the code signing error will appear as a buildtime error, rather than as a pop-up:
 
-<img src="/img/docs/deploying/code-sign-err-xcode8.png">
+<img src="/docs/v3/img/deploying/code-sign-err-xcode8.png">
 
 To select the certificate to sign your app with, do the following:
 
@@ -140,13 +140,13 @@ To select the certificate to sign your app with, do the following:
 2. Select the 'General' section
 3. Select the team associate with your signing certificate from the 'Team' dropdown in the 'Signing' section
 
-<img src="/img/docs/deploying/code-sign-xcode8.png">
+<img src="/docs/v3/img/deploying/code-sign-xcode8.png">
 
 ### Trusting the Certificate ###
 
 Once you've code signed your app, you should get a launch error that looks like this. On Xcode 7 and below you'll see this automatically. On Xcode 8 it will appear the next time you try to run the app:
 
-<img src="/img/docs/deploying/launch-fail-1.jpg">
+<img src="/docs/v3/img/deploying/launch-fail-1.jpg">
 
 To get past this, we have to tell our iOS device to trust the certificate we code signed our app with:
 
@@ -155,6 +155,6 @@ To get past this, we have to tell our iOS device to trust the certificate we cod
 3. Tap the email address
 4. Tap 'Trust &lt;your_email&gt;':
 
-<img src="/img/docs/deploying/verify.jpg">
+<img src="/docs/v3/img/deploying/verify.jpg">
 
 Now, go back to Xcode and hit that play button or run `ionic cordova run ios --device` from the command line to install and launch your app on your iOS device.

@@ -1,7 +1,7 @@
 #docs-page-resources-index main {
   h1.banner {
     height: 178px;
-    background: no-repeat center top url('/img/docs/resources/resources-header-img.jpg');
+    background: no-repeat center top url('/docs/v3/img/resources/resources-header-img.jpg');
     background-size: cover;
     color: white;
     text-align: center;
@@ -37,7 +37,7 @@
       transition: .3s transform, .3s opacity;
 
       &::before {
-        background: no-repeat center top url('/img/docs/resources/resources-header-icon.png');
+        background: no-repeat center top url('/docs/v3/img/resources/resources-header-icon.png');
         background-size: 60px;
         height: 60px;
         width: 60px;
@@ -59,32 +59,32 @@
       }
 
       &.videos {
-        background-image: url('/img/docs/resources/video.jpg');
+        background-image: url('/docs/v3/img/resources/video.jpg');
         background-size: cover;
       }
 
       &.books {
-        background-image: url('/img/docs/resources/books.jpg');
+        background-image: url('/docs/v3/img/resources/books.jpg');
         background-size: cover;
       }
 
       &.courses {
-        background-image: url('/img/docs/resources/courses.jpg');
+        background-image: url('/docs/v3/img/resources/courses.jpg');
         background-size: cover;
       }
 
       &.guides {
-        background-image: url('/img/docs/resources/guides.jpg');
+        background-image: url('/docs/v3/img/resources/guides.jpg');
         background-size: cover;
       }
 
       &.community {
-        background-image: url('/img/docs/resources/community.jpg');
+        background-image: url('/docs/v3/img/resources/community.jpg');
         background-size: cover;
       }
 
       &.tools {
-        background-image: url('/img/docs/resources/tools.jpg');
+        background-image: url('/docs/v3/img/resources/tools.jpg');
         background-size: cover;
       }
     }
@@ -187,7 +187,7 @@
                   .3s height, .3s padding-bottom;
 
       &::before {
-        background: no-repeat center top url('/img/docs/resources/resources-icons.png?1');
+        background: no-repeat center top url('/docs/v3/img/resources/resources-icons.png?1');
         background-size: 32px;
         height: 32px;
         width: 32px;

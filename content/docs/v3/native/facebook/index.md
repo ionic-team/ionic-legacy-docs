@@ -27,16 +27,16 @@ docType: "class"
 <p>Requires Cordova plugin: <code>cordova-plugin-facebook4</code>. For more info, please see the <a href="https://github.com/jeduan/cordova-plugin-facebook4">Facebook Connect</a>.</p>
 <h4 id="installation">Installation</h4>
 <p> To use the FB plugin, you first have to create a new Facebook App inside of the Facebook developer portal at <a href="https://developers.facebook.com/apps">https://developers.facebook.com/apps</a>.</p>
-<p><a href="https://developers.facebook.com/apps/"><img src="/img/docs/native/Facebook/1.png" alt="fb-getstarted-1"></a></p>
+<p><a href="https://developers.facebook.com/apps/"><img src="/docs/v3/img/native/Facebook/1.png" alt="fb-getstarted-1"></a></p>
 <p>Retrieve the <code>App ID</code> and <code>App Name</code>.</p>
-<p><a href="https://developers.facebook.com/apps/"><img src="/img/docs/native/Facebook/2.png" alt="fb-getstarted-2"></a></p>
+<p><a href="https://developers.facebook.com/apps/"><img src="/docs/v3/img/native/Facebook/2.png" alt="fb-getstarted-2"></a></p>
 <p>Then type in the following command in your Terminal, where APP_ID and APP_NAME are the values from the Facebook Developer portal.</p>
 <pre><code class="lang-bash">ionic cordova plugin add cordova-plugin-facebook4 --variable APP_ID=&quot;123456789&quot; --variable APP_NAME=&quot;myApplication&quot;
 </code></pre>
 <p>After, you&#39;ll need to add the native platforms you&#39;ll be using to your app in the Facebook Developer portal under your app&#39;s Settings:</p>
-<p><a href="https://developers.facebook.com/apps/"><img src="/img/docs/native/Facebook/3.png" alt="fb-getstarted-3"></a></p>
+<p><a href="https://developers.facebook.com/apps/"><img src="/docs/v3/img/native/Facebook/3.png" alt="fb-getstarted-3"></a></p>
 <p>Click <code>&#39;Add Platform&#39;</code>.</p>
-<p><a href="https://developers.facebook.com/apps/"><img src="/img/docs/native/Facebook/4.png" alt="fb-getstarted-4"></a></p>
+<p><a href="https://developers.facebook.com/apps/"><img src="/docs/v3/img/native/Facebook/4.png" alt="fb-getstarted-4"></a></p>
 <p>At this point you&#39;ll need to open your project&#39;s <a href="https://cordova.apache.org/docs/en/latest/config_ref/index.html"><code>config.xml</code></a> file, found in the root directory of your project.</p>
 <p>Take note of the <code>id</code> for the next step:</p>
 <pre><code>&lt;widget id=&quot;com.mycompany.testapp&quot; version=&quot;0.0.1&quot; xmlns=&quot;http://www.w3.org/ns/widgets&quot; xmlns:cdv=&quot;http://cordova.apache.org/ns/1.0&quot;&gt;
@@ -44,10 +44,10 @@ docType: "class"
 <p>You can also edit the <code>id</code> to whatever you&#39;d like it to be.</p>
 <h4 id="ios-install">iOS Install</h4>
 <p>Under &#39;Bundle ID&#39;, add the <code>id</code> from your <code>config.xml</code> file:</p>
-<p><a href="https://developers.facebook.com/apps/"><img src="/img/docs/native/Facebook/5.png" alt="fb-getstarted-5"></a></p>
+<p><a href="https://developers.facebook.com/apps/"><img src="/docs/v3/img/native/Facebook/5.png" alt="fb-getstarted-5"></a></p>
 <h4 id="android-install">Android Install</h4>
 <p>Under &#39;Google Play Package Name&#39;, add the <code>id</code> from your <code>config.xml</code> file:</p>
-<p><a href="https://developers.facebook.com/apps/"><img src="/img/docs/native/Facebook/6.png" alt="fb-getstarted-6"></a></p>
+<p><a href="https://developers.facebook.com/apps/"><img src="/docs/v3/img/native/Facebook/6.png" alt="fb-getstarted-6"></a></p>
 <p>And that&#39;s it! You can now make calls to Facebook using the plugin.</p>
 <h2 id="events">Events</h2>
 <p>App events allow you to understand the makeup of users engaging with your app, measure the performance of your Facebook mobile app ads, and reach specific sets of your users with Facebook mobile app ads.</p>

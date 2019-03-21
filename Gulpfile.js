@@ -129,13 +129,13 @@ gulp.task('styles:v2', function() {
     .pipe(prefix({browsers: AUTOPREFIXER_BROWSERS}))
     .pipe(concat('styles.css'))
     .pipe($.sourcemaps.write())
-    .pipe(gulp.dest('content/css/'))
-    .pipe(gulp.dest('_site/css/'))
+    .pipe(gulp.dest('content/docs/v3/css/'))
+    .pipe(gulp.dest('_site/docs/v3/css/'))
     // Concatenate and minify styles
     .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(rename({extname: '.min.css'}))
-    .pipe(gulp.dest('content/css/'))
-    .pipe(gulp.dest('_site/css/'))
+    .pipe(gulp.dest('content/docs/v3/css/'))
+    .pipe(gulp.dest('_site/docs/v3/css/'))
     .pipe($.size({title: 'styles'}));
 });
 
@@ -161,12 +161,12 @@ gulp.task('js', function() {
     .pipe(header(closureStart))
     .pipe(footer(closureEnd))
     .pipe($.sourcemaps.write())
-    .pipe(gulp.dest('content/js'))
-    .pipe(gulp.dest('_site/js'))
+    .pipe(gulp.dest('content/docs/v3/js'))
+    .pipe(gulp.dest('_site/docs/v3/js'))
     .pipe(uglify())
     .pipe(rename({extname: '.min.js'}))
-    .pipe(gulp.dest('content/js'))
-    .pipe(gulp.dest('_site/js'))
+    .pipe(gulp.dest('content/docs/v3/js'))
+    .pipe(gulp.dest('_site/docs/v3/js'))
     .pipe($.size({title: 'js'}));
 });
 
@@ -185,8 +185,8 @@ gulp.task('stencil', function(done) {
   )
   .on('close', async function() {
     await gulp
-      .src('content/js/stencil/*')
-      .pipe(gulp.dest('_site/js/stencil/'))
+      .src('content/docs/v3/js/stencil/*')
+      .pipe(gulp.dest('_site/docs/v3/js/stencil/'))
     done();
   }).on('error', function(err) {
     console.log(err)
@@ -301,8 +301,8 @@ gulp.task('sitemap', function () {
     // verbose: true,
     lastmod: false
   }))
-  .pipe(gulp.dest('content/'))
-  .pipe(gulp.dest('_site/'));
+  .pipe(gulp.dest('content/docs/v3/'))
+  .pipe(gulp.dest('_site/docs/v3/'));
 });
 
 gulp.task('docs.index', function() {

@@ -1,7 +1,7 @@
 #docs-page-native {
   h1.banner {
     height: 178px;
-    background: no-repeat center top url('/img/docs/native/native3.jpg');
+    background: no-repeat center top url('/docs/v3/img/native/native3.jpg');
     background-size: cover;
     color: white;
     text-align: center;
@@ -21,7 +21,7 @@
     text-shadow: 0 1px 4px rgba(0,0,0,.1);
 
     &::before {
-      background: no-repeat center top url('/img/docs/resources/resources-header-icon.png');
+      background: no-repeat center top url('/docs/v3/img/resources/resources-header-icon.png');
       background-size: 60px;
       height: 60px;
       width: 60px;

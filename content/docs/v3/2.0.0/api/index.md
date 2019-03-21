@@ -13,7 +13,7 @@ searchable: false
 
 # Ionic 2 API Docs
 
-<img class="section-header" src="/img/docs/api-intro-header.png" />
+<img class="section-header" src="/docs/v3/img/api-intro-header.png" />
 
 
 Ionic 2 takes everything you know and loved about Ionic 1, and builds on top of it to provide a much more flexible framework.

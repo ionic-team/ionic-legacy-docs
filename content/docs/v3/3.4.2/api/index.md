@@ -13,7 +13,7 @@ searchable: false
 
 # Ionic API Docs
 
-<img class="section-header" src="/img/docs/api-intro-header.png" />
+<img class="section-header" src="/docs/v3/img/api-intro-header.png" />
 
 
 Ionic takes everything you know and loved about Ionic V1, and builds on top of it to provide a much more flexible framework.
