@@ -283,17 +283,34 @@ gulp.task('watch', ['server'], function() {
     'content/img/**/*', 'content/docs/appflow/**/*.{md,html}'], ['jekyll-rebuild']);
 });
 
-gulp.task('sitemap', function () {
+gulp.task('sitemap:v1', function () {
   gulp.src([
-    'content/**/*.{html,md}',
-    '!content/docs/{demos,dist}/**/*',
-    '!content/{_includes,_layouts}/**/*',
-    '!content/present-ionic/slides/**/*'
+    'content/docs/v1/**/*.{html,md}'
   ], {
     read: false
   })
   .pipe($.sitemap({
-    siteUrl: 'https://www.ionicframework.com',
+    siteUrl: 'https://www.ionicframework.com/docs/v1/',
+     getLoc: function(siteUrl, loc, entry) {
+      return loc.replace(/\.\w+$/, '').replace(/\/$/, '').replace(/(.*)\/index$/, '$1');
+    },
+    mappings: sitemappings,
+    // verbose: true,
+    lastmod: false
+  }))
+  .pipe(gulp.dest('content/docs/v1/'))
+  .pipe(gulp.dest('_site/docs/v1/'));
+});
+
+gulp.task('sitemap:v3', function () {
+  gulp.src([
+    'content/docs/v3/**/*.{html,md}',
+    '!content/docs/v3/{demos,dist}/**/*'
+  ], {
+    read: false
+  })
+  .pipe($.sitemap({
+    siteUrl: 'https://www.ionicframework.com/docs/v3/',
      getLoc: function(siteUrl, loc, entry) {
       return loc.replace(/\.\w+$/, '').replace(/\/$/, '').replace(/(.*)\/index$/, '$1');
     },
@@ -304,6 +321,10 @@ gulp.task('sitemap', function () {
   .pipe(gulp.dest('content/docs/v3/'))
   .pipe(gulp.dest('_site/docs/v3/'));
 });
+
+gulp.task('sitemap', function(done) {
+  return runSequence(['sitemap:v1', 'sitemap:v3'], done);
+})
 
 gulp.task('docs.index', function() {
   var lunr = require('lunr');

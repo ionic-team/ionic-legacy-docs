@@ -25,12 +25,12 @@
     "priority": 0.7
   },
   {
-    "pages": [ "docs/{api,native,cli,pro,developer-resources}/**/*" ],
+    "pages": [ "{api,appflow,native,cli,developer-resources}/**/*" ],
     "changefreq": "monthly",
     "priority": 0.6
   },
   {
-    "pages": [ "docs/{v1,3.*,2.*}/**/*" ],
+    "pages": [ "**/*" ],
     "changefreq": "yearly",
     "priority": 0.4
   }
