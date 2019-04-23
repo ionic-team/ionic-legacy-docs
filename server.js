@@ -19,7 +19,7 @@ app.use((_, res, next) => {
   res.set('X-Robots-Tag', 'noindex, nofollow');
   next();
 });
-app.use(express.static(path.join(__dirname, '_site')));
+app.use(express.static(path.join(__dirname, '_site'), { maxAge: '2h' }));
 
 app.get('/', (_, res) => res.redirect(301, '/docs/v3/'));
 
