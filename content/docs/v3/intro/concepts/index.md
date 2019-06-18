@@ -8,7 +8,7 @@ header_sub_title: Getting Started with Ionic
 
 # Core Concepts
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/v3/intro/concepts/index.md'>Improve
+<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-legacy-docs/edit/master/content/docs/v3/intro/concepts/index.md'>Improve
 this doc</a>
 
 If you’re completely new to Ionic and/or hybrid mobile app development, it can

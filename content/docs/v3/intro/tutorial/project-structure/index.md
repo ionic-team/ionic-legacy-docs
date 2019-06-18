@@ -13,7 +13,7 @@ next_page_link: /docs/v3/intro/tutorial/adding-pages
 
 # Project Structure
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/v3/intro/tutorial/project-structure/index.md'>
+<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-legacy-docs/edit/master/content/docs/v3/intro/tutorial/project-structure/index.md'>
   Improve this doc
 </a>
 

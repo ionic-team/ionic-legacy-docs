@@ -9,7 +9,7 @@ header_sub_title: Ionic Resources
 
 # Ionic Developer Tips
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/resources/developer-tips/index.md'>
+<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-legacy-docs/edit/master/content/docs/v3/developer-resources/developer-tips/index.md'>
   Improve this doc
 </a>
 

@@ -9,7 +9,7 @@ next_page_link: /docs/v3/intro/tutorial
 
 # Installing Ionic
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/v3/intro/installation/index.md'>Improve
+<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-legacy-docs/edit/master/content/docs/v3/intro/installation/index.md'>Improve
 this doc</a>
 
 Ionic apps are created and developed primarily through the Ionic command line

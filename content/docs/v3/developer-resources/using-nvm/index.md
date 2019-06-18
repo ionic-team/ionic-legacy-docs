@@ -8,7 +8,7 @@ header_sub_title: Ionic Resources
 
 # Using NVM
 
-<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-site/edit/master/content/docs/developer-resources/using-nvm/index.md'>
+<a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-legacy-docs/edit/master/content/docs/v3/developer-resources/using-nvm/index.md'>
   Improve this doc
 </a>
 
