@@ -19,7 +19,7 @@ Deploying to an Android device is a fairly straightforward process. If you have 
 
 ### Requirements
 
-- [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html)
+- [Java JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [Android Studio](https://developer.android.com/studio/index.html)
 - Updated Android SDK tools, platform and component dependencies. Available through Android Studio's [SDK Manager](https://developer.android.com/studio/intro/update.html)
 

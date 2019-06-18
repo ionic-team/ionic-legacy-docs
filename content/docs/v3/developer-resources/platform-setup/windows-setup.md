@@ -23,7 +23,7 @@ Once installed, you should have access to both `node` and `npm` from your comman
 The iOS SDK does not run on Windows, so nothing to do here. Still want to build for iOS, though? Check out [Package](/pro#packaging), part of the Ionic Cloud.
 
 ### Java JDK
-We'll need to download and install the Java JDK from [their website](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
+We'll need to download and install Java JDK 8 from [their website](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html).
 
 ### Android SDK
 Download Android Studio and go through the installer and set up the IDE. It should print out a location for where the Android SDK gets installed. Copy this down for future use.
