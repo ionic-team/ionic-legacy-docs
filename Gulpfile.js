@@ -458,7 +458,7 @@ gulp.task(
     'styles:others',
     'docs.index',
   ],
-  // bustCache
+  bustCache
 );
 
 gulp.task('default', ['build']);

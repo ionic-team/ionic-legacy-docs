@@ -18,7 +18,7 @@ linkchecker.html
 /content/css/bootstrap/bootstrap.css
 /content/docs/data/index.json
 /content/docs/v3/js/ionic-site.js
-/content/docs/v3/js/ionic-site.min.js
+# /content/docs/v3/js/ionic-site.min.js
 /content/docs/v3/js/ionic-site-components/
 /.env
 /content/_includes/head_includes.prod.html
