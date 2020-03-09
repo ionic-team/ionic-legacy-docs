@@ -1,5 +1,7 @@
-ionic-site
+ionic-legacy-docs
 ==========
+
+*Note*: This is a legacy version of our site for v2/3 docs. It was forked from ionic-site at the time of the Ionic v4 launch. Only critical bugs will be fixed. For example, this site does not run in node 11+. You must use node v10.x. 
 
 Repo for the ionicframework.com site.  To preview local Ionic changes, follow the instructions at the [Ionic repo](https://github.com/ionic-team/ionic#documentation).
 
