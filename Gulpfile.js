@@ -452,12 +452,13 @@ gulp.task('slug.prep', function () {
 gulp.task(
   'build-prep',
   [
+    'js',
     'styles:v1',
     'styles:v2',
     'styles:others',
     'docs.index',
   ],
-  bustCache
+  // bustCache
 );
 
 gulp.task('default', ['build']);
