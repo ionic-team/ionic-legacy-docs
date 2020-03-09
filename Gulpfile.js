@@ -170,34 +170,6 @@ gulp.task('js', function() {
     .pipe($.size({title: 'js'}));
 });
 
-
-
-gulp.task('stencil', function(done) {
-  return cp.spawn('node_modules/.bin/stencil',
-    ['build'],
-    {
-      cwd: process.cwd(),
-      env: {
-          PATH: process.env.PATH
-      },
-      stdio: 'inherit'
-    }
-  )
-  .on('close', async function() {
-    await gulp
-      .src('content/docs/v3/js/stencil/*')
-      .pipe(gulp.dest('_site/docs/v3/js/stencil/'))
-    done();
-  }).on('error', function(err) {
-    console.log(err)
-    throw err; 
-  });
-});
-
-gulp.task('stencil:clean', function(done) {
-  return runSequence('stencil', 'js', done);
-})
-
 /**
  * Build the Jekyll Site
  */
@@ -256,7 +228,6 @@ gulp.task('server:server', restartAndReload);
 gulp.task('server:stylesv1', ['styles:v1'], justReload);
 gulp.task('server:stylesv2', ['styles:v2'], justReload);
 gulp.task('server:others', ['styles:others'], justReload);
-gulp.task('server:stencil', ['stencil'], justReload);
 gulp.task('server:js', ['js'], justReload);
 
 gulp.task('watch.max', ['server'], function() {
@@ -277,8 +248,6 @@ gulp.task('watch', ['server'], function() {
     ['server:stylesv2']);
   gulp.watch(['assets/scss/**/*.scss', '!assets/scss/styles.scss'], ['server:others']);
   gulp.watch(['assets/js/**/*.js'], ['server:js']);
-  gulp.watch(['assets/stencil/**/*.{ts,tsx,scss}', '!assets/stencil/components.d.ts'], 
-    ['server:stencil']);
   gulp.watch(['content/_layouts/*/*','content/_includes/**/*',
     'content/img/**/*', 'content/docs/appflow/**/*.{md,html}'], ['jekyll-rebuild']);
 });
@@ -483,7 +452,6 @@ gulp.task('slug.prep', function () {
 gulp.task(
   'build-prep',
   [
-    'stencil:clean',
     'styles:v1',
     'styles:v2',
     'styles:others',
