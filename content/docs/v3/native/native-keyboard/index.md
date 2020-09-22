@@ -576,7 +576,7 @@ Manipulate the messenger while it's open. For instance if you want to update the
       <code>string</code>
     </td>
     <td>
-      <p>Depends on the type. Examples: for &quot;text&quot; use &quot;Send&quot;, for &quot;fontawesome&quot; use &quot;fa-battery-quarter&quot;, for &quot;ionicon&quot; use &quot;\uf48a&quot; (go to <a href="http://ionicons.com">http://ionicons.com</a>, right-click and inspect the icon and use the value you find in :before). Note that some fonticons are not supported as the embedded fonts in the plugin may lag behind a little. So try one of the older icons first.</p>
+      <p>Depends on the type. Examples: for &quot;text&quot; use &quot;Send&quot;, for &quot;fontawesome&quot; use &quot;fa-battery-quarter&quot;, for &quot;ionicon&quot; use &quot;\uf48a&quot; (go to <a href="https://ionicons.com">https://ionicons.com</a>, right-click and inspect the icon and use the value you find in :before). Note that some fonticons are not supported as the embedded fonts in the plugin may lag behind a little. So try one of the older icons first.</p>
 
       
     </td>

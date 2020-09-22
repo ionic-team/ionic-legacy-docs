@@ -67,7 +67,7 @@ constructor(private http: HTTP) {}
 
 ...
 
-this.http.get(&#39;http://ionic.io&#39;, {}, {})
+this.http.get(&#39;https://ionic.io&#39;, {}, {})
   .then(data =&gt; {
 
     console.log(data.status);

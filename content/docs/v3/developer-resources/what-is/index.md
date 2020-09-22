@@ -105,7 +105,7 @@ header_sub_title: Ionic Resources
 
   <section id="ionicons">
     <h3><a href="#ionicons">Ionicons</a></h3>
-    <p><a href="http://ionicons.com/">Ionicons</a> is an open-source icon set used and created by Ionic. It includes iOS, Material Design, and social icons, as well as a wide range of commonly used icons. Ionicons is included by default in Ionic distributions, but they can be used in any project.</p>
+    <p><a href="https://ionicons.com/">Ionicons</a> is an open-source icon set used and created by Ionic. It includes iOS, Material Design, and social icons, as well as a wide range of commonly used icons. Ionicons is included by default in Ionic distributions, but they can be used in any project.</p>
   </section>
 
   <section id="karma">

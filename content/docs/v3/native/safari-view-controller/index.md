@@ -68,7 +68,7 @@ this.safariViewController.isAvailable()
       if (available) {
 
         this.safariViewController.show({
-          url: &#39;http://ionic.io&#39;,
+          url: &#39;https://ionic.io&#39;,
           hidden: false,
           animated: false,
           transition: &#39;curl&#39;,
