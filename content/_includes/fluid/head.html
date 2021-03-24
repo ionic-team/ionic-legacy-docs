@@ -27,7 +27,7 @@
 {% endif %}
 
 <meta name="author" content="Drifty">
-<meta name="description" content="{% if page.meta_description %}{{ meta_description }}{% elsif meta_description %}{{meta_description}}{% else %}Ionic is the app platform for web developers. Build amazing mobile, web, and desktop apps all with one shared code base and open web standards{% endif %}">
+<meta name="description" content="{% if page.meta_description %}{{ page.meta_description }}{% elsif meta_description %}{{meta_description}}{% else %}Ionic is the app platform for web developers. Build amazing mobile, web, and desktop apps all with one shared code base and open web standards{% endif %}">
 <meta name="keywords" content="html5,javascript,mobile,drifty,ionic,hybrid,phonegap,cordova,native,ios,android,angularjs">
 <link rel="canonical" href="{{site.url}}{{page.url | replace: page.version, '' | replace: '//', '/'}}">
 
@@ -45,7 +45,7 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="Ionic Framework">
 <meta property="og:image" content="{% if page.meta_image %}{{ page.meta_image }}{% elsif meta_image %}{{meta_image}}{% else %}{{site.url}}/docs/v3/img/meta/ionic-framework-og.png{% endif %}"/>
-<meta property="og:description" content="{% if page.meta_description %}{{ meta_description }}{% elsif meta_description %}{{meta_description}}{% else %}Ionic is the app platform for web developers. Build amazing mobile, web, and desktop apps all with one shared code base and open web standards{% endif %}">
+<meta property="og:description" content="{% if page.meta_description %}{{ page.meta_description }}{% elsif meta_description %}{{meta_description}}{% else %}Ionic is the app platform for web developers. Build amazing mobile, web, and desktop apps all with one shared code base and open web standards{% endif %}">
 <meta property="og:site_name" content="Ionic Framework">
 <meta property="article:publisher" content="https://www.facebook.com/ionicframework">
 
