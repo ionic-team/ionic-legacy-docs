@@ -1,6 +1,7 @@
 ---
 layout: docs_guide
-title: "Publishing your app"
+title: "Publishing Your Android or iOS App in Google Play & App Store"
+meta_description: "Now that you have a working Android or iOS app, it's time to publish in the Google Play or iTunes App Store! Follow this guide to publish your app!"
 chapter: publishing
 ---
 

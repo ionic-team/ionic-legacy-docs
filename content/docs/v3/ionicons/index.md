@@ -2,7 +2,8 @@
 layout: fluid/docs_base
 category: ionicons
 id: ionicons
-title: Ionicons
+title: "Ionicons v3: Open-Source Application Icons for iOS and Android"
+meta_description: Ionicons is an open-source icon set with 700+ icons crafted for web, iOS, Android, and desktop applications. Ionicons have both Material Design and iOS options.
 header_sub_title: App Design and Development Icons
 ---
 
