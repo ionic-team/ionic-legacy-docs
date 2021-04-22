@@ -2,7 +2,8 @@
 layout: fluid/docs_base
 category: components
 id: components
-title: Ionic UI Components and API Customization
+title: "Ionic Demo: UI Components & API Customization to Create Interface"
+meta_description: Ionic apps are made of high-level building blocks called UI components. Demo Ionic Framework API customization and quickly create your app interface.
 show_preview_device: true
 angular_controller: ComponentsCtrl
 next_page_title: API Docs

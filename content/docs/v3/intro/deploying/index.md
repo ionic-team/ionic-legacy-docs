@@ -2,7 +2,8 @@
 layout: fluid/docs_base
 category: intro
 id: deploying
-title: Deploying
+title: "Deploying Apps: Testing iOS and Android Device Applications"
+meta_description: Ionic Framework lets you accurately test how your app will behave and perform in browsers on Android device applications and iOS devices before you deploy.
 header_sub_title: Getting Started with Ionic
 ---
 
