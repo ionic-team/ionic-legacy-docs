@@ -1,6 +1,7 @@
 ---
 layout: docs_guide
-title: "Installing Ionic and its Dependencies"
+title: "Installing Ionic V1, Cordova Download, and Dependencies"
+meta_description: "Ionic makes it easy to build beautiful interactive mobile apps using HTML5 and Angular. Begin downloading Ionic V1 and installing Cordova to get started."
 chapter: installation
 ---
 

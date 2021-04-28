@@ -2,7 +2,8 @@
 layout: fluid/docs_base
 category: intro
 id: installation
-title: Ionic Native App Installation with Ionic CLI and Cordova
+title: "Ionic V3 and Cordova CLI Installation | How to Install Cordova"
+meta_description: "Ionic V3 and Cordova CLI Installation is quick and simple. Learn how to install the Ionic V3 and Cordova CLI and get started creating your first Ionic app."
 next_page_title: Tutorial
 next_page_link: /docs/v3/intro/tutorial
 ---

@@ -3,7 +3,8 @@ layout: fluid/docs_base
 category: intro
 id: tutorial
 subid: tutorial
-title: Tutorial
+title: "Ionic V3 App Development Tutorial | Ionic Framework Tutorial"
+meta_description: "Now that you have Ionic V3 and its dependencies installed, you can build your first app! Follow our Ionic Framework app development tutorial to get started!"
 header_sub_title: Getting Started with Ionic
 prev_page_title: Installing Ionic
 prev_page_link: /docs/v3/intro/installation/
