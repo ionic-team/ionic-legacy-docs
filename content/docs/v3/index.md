@@ -72,7 +72,7 @@ pre_footer: true
       </p>
     </a>
     <a class="section faq"
-       href="/docs/faq/">
+       href="/docs/faq">
       <h3>FAQ</h3>
       <p>
         Quickly find answers to some of the most commonly asked Ionic questions.

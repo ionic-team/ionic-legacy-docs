@@ -2,7 +2,8 @@
 layout: fluid/docs_base
 category: resources
 id: forms
-title: Ionic and Forms
+title: Open-Source Form Builder for Creating Ionic Forms in Angular 2
+meta_description: Forms have gone through a lot of change in Angular 2—but for the best. Learn how Ionic and Forms open-source form builder creates much more in-depth apps.
 header_sub_title: Ionic Resources
 ---
 
