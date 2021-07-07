@@ -35,7 +35,7 @@ Segment
 
 </h1>
 
-<a class="improve-v2-docs" href="http://github.com/ionic-team/ionic/edit/v3/src/components/segment/segment.ts#L6">
+<a class="improve-v2-docs" href="https://github.com/ionic-team/ionic-legacy-docs/edit/master/content/docs/v3/api/components/segment/Segment/index.md">
 Improve this doc
 </a>
 
@@ -46,7 +46,7 @@ Improve this doc
 
 <p>A Segment is a group of buttons, sometimes known as Segmented Controls, that allow the user to interact with a compact group of a number of controls.
 Segments provide functionality similar to tabs, selecting one will unselect all others. You should use a tab bar instead of a segmented control when you want to let the user move back and forth between distinct pages in your app.
-You could use Angular&#39;s <code>ngModel</code> or <code>FormBuilder</code> API. For an overview on how <code>FormBuilder</code> works, checkout <a href="http://learnangular2.com/forms/">Angular Forms</a>, or <a href="https://angular.io/docs/ts/latest/api/forms/index/FormBuilder-class.html">Angular FormBuilder</a></p>
+You could use Angular&#39;s <code>ngModel</code> or <code>FormBuilder</code> API. For an overview on how <code>FormBuilder</code> works, checkout <a href="http://web.archive.org/web/20180310045610/http://learnangular2.com:80/forms/">Angular Forms</a>, or <a href="https://angular.io/docs/ts/latest/api/forms/index/FormBuilder-class.html">Angular FormBuilder</a></p>
 <pre><code class="lang-html">&lt;!-- Segment in a header --&gt;
 &lt;ion-header&gt;
   &lt;ion-toolbar&gt;
@@ -676,7 +676,7 @@ You could use Angular&#39;s <code>ngModel</code> or <code>FormBuilder</code> API
 <h2><a class="anchor" name="related" href="#related">Related</a></h2>
 
 <a href="/docs/v3/components#segment">Segment Component Docs</a>,
-[Angular Forms](http://learnangular2.com/forms/)<!-- end content block -->
+[Angular Forms](http://web.archive.org/web/20180310045610/http://learnangular2.com:80/forms/)<!-- end content block -->
 
 
 <!-- end body block -->
