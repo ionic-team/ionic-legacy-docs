@@ -37,19 +37,20 @@ _For more information, Check out the [API docs](../api/components/alert/AlertCon
 Basic Alerts are typically used to notify the user about new information (a change in the app, a new feature, etc), an urgent situation that requires acknowledgement, or as a confirmation to the user that an action was successful or not.
 
 ```typescript
-import { AlertController } from 'ionic-angular';
+import { AlertController } from "@ionic/angular";
 
 export class MyPage {
 
   constructor(public alertCtrl: AlertController) { }
 
   showAlert() {
-    const alert = this.alertCtrl.create({
+    this.alertCtrl.create({
       title: 'New Friend!',
       subTitle: 'Your friend, Obi wan Kenobi, just accepted your friend request!',
       buttons: ['OK']
+    }).then((alertElement) => {
+      alertElement.present();
     });
-    alert.present();
   }
 }
 ```
