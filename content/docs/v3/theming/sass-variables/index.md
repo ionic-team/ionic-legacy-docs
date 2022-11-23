@@ -10,7 +10,7 @@ next_page_title: Platform Specific Styles
 next_page_link: /docs/theming/platform-specific-styles/
 ---
 
-<h1 class="title">Sass Variables</h1>
+<h1 class="title">Scss Variables</h1>
 
 <a class="improve-v2-docs" href='https://github.com/ionic-team/ionic-legacy-docs/edit/master/content/docs/v3/theming/sass-variables/index.md'>
   Improve this doc
