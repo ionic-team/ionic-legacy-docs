@@ -62,7 +62,7 @@
     "gulp-sourcemaps": "^2.6.3",
     "gulp-uglify": "^2.0.0",
     "ionicons": "^4.1.2",
-    "jquery": "3.1.1",
+    "jquery": "3.5.0",
     "js-yaml": "^3.4.2",
     "lunr": "^0.5.12",
     "run-sequence": "^1.2.2",
