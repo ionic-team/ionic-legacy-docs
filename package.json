@@ -38,7 +38,7 @@
     "angular-animate": "1.6.8",
     "angular-cookies": "1.6.8",
     "angular-sanitize": "1.6.8",
-    "bootstrap": "3.3.5",
+    "bootstrap": "3.4.1",
     "browser-sync": "^2.26.3",
     "c3": "^0.5.2",
     "del": "^2.2.2",
