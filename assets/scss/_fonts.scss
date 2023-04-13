@@ -146,23 +146,3 @@ $graphikDir: $fontsDir + 'graphik/';
   src: url($cdn + 'inter/Inter-BlackItalic.woff2') format('woff2'),
        url($cdn + 'inter/Inter-BlackItalic.woff') format('woff');
 }
-
-@font-face {
-  font-family: 'FreightTextPro';
-  font-weight: 400;
-  unicode-range: U+000-5FF;
-  src: url($cdn + '29D26A_0_0.eot');
-  src: url($cdn + '29D26A_0_0.eot?#iefix') format('embedded-opentype'),
-       url($cdn + '29D26A_0_0.woff') format('woff'),
-       url($cdn + '29D26A_0_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'FreightTextPro';
-  font-weight: 500;
-  unicode-range: U+000-5FF;
-  src: url($cdn + '29D26A_1_0.eot');
-  src: url($cdn + '29D26A_1_0.eot?#iefix') format('embedded-opentype'),
-       url($cdn + '29D26A_1_0.woff') format('woff'),
-       url($cdn + '29D26A_1_0.ttf') format('truetype');
-}
