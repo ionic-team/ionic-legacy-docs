@@ -15,7 +15,7 @@ footer_includes: |
 
 Can't find a solution on this page? Check out the
 [Ionic Forums](http://forum.ionicframework.com) or join the
-[Ionic Worldwide Slack Channel](https://ionicworldwide.herokuapp.com/), where the
+[Ionic Discord](https://discord.com/invite/UPYYRhtyzp), where the
 friendly Ions of the community will help you!
 
 {% include fluid/toc.html %}
