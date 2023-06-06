@@ -38,10 +38,10 @@ export class MyApp {
   ...
 
   // make HelloIonicPage the root (or first) page
-  rootPage: any = HelloIonicPage;
+  rootPage = HelloIonicPage;
   pages: Array<{ title: string, component: any }>;
 
-    constructor(private platform: Platform, private menu: MenuController, ...) {
+    constructor(public platform: Platform, public menu: MenuController, ...) {
       ...
     }
   ...
